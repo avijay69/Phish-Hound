@@ -1,0 +1,33 @@
+Contains '@' symbol:
+https://example.com@phishing.com
+
+URL length > 60:
+https://example.com/this/is/a/very/long/url/that/exceeds/the/sixty/characters/limit/to/test/length/checking
+
+URL depth > 5:
+https://example.com/one/two/three/four/five/six
+
+Redirection ('//'):
+https://example.com//another.com
+
+Not using secured protocol (HTTPS):
+(This case cannot be tested directly with an https URL, so it remains http):
+http://example.com
+
+URL uses a shortening service:
+https://www.bit.ly/shortenedurl
+
+Contains '-' symbol in the domain:
+https://example-domain.com
+
+Contains an IP address:
+https://192.168.1.1
+
+Flagged by Google Safe Browsing:
+https://testsafebrowsing.appspot.com/s/phishing.html
+
+No DNS records:
+https://thisdomaindoesnotexist123456.com
+
+Real Phishing URL (BE CAREFUL):
+https://nobell.it/70ffb52d079109dca5664cce6f317373782//login.SkyPe.com/en/cgi-bin/verification/login/70ffb52d
