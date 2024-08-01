@@ -8,7 +8,7 @@ Key Features
      , Detailed Results: Presents clear and informative results, indicating whether a URL is safe or potentially phishing, along with the specific reasons for the determination
      
 Installation
-     , Clone the repository: git clone https://github.com/avijay.69/phish-hound.git
+     , Clone the repository: git clone https://github.com/avijay69/phish-hound
      , Install dependencies: pip install -r requirements.txt
      , Run the tool: python code.py
      
